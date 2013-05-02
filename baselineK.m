@@ -54,7 +54,8 @@ function [d v a varargout]=baselineK(t,ai,method,varargin)
 %
 % Please reference
 % D.Melgar, Bock, Y., Snachez, D. & Crowell, B.W. (2013). On Robust and Automated Baseline
-% Corrections for Strong Motion Seismology, J. Geophys. Res, in press.
+% Corrections for Strong Motion Seismology, J. Geophys. Res, 118(3),1177-1187,DOI: 10.1002
+% /jgrb.50135
 %
 % REFERENCES
 % * Boore, D. M. (1999). Effect of baseline corrections on response spectra for

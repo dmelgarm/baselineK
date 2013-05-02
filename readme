@@ -1,0 +1,18 @@
+D. Melgar 05/2013
+
+This code performs baseline corrections to accelerometer data 
+using 1 of 6 methods:
+* Fit a piece wise linear function (Boore)
+* Fit a quadratic (Boore)
+* High pass filter the data then integrate
+* Use static field constraint analytically
+* Use static field constraint with grid search
+* Fit a step function, with or without static field constraints
+
+There are some extra references in the code you can look at and
+for a detaield discussion of the pros and cons of the methods and
+if you use this code please look at and reference:
+
+Melgar, D., Y. Bock, D. Sanchez, and B.W. Crowell (2013), On robust 
+and reliable automated baseline corrections for strong motion 
+seismology, J. Geophys. Res., 118, doi: 10.1002/jgrb.50135
